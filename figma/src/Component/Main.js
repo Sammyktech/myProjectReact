@@ -9,6 +9,8 @@ import fineImage from '../images/Ellipse 3.png'
 import fineImage1 from '../images/Ellipse 1.png'
 import fineImage2 from '../images/Ellipse 2.png'
 import fineImage3 from '../images/image 50 (1).png'
+import "../App.css"
+
 const Main = () => {
   return (
     <div>

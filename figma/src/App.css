@@ -242,9 +242,6 @@ z-index: 1;
 .pop{
     display: flex;
 }
-.tup{
-    /* position: relative; */
-}
 .tup img{
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
@@ -335,3 +332,177 @@ margin-top: -30px
     border: none;
     color: white;
 }
+
+.groundSection{
+   
+    background: url("./images/image\ 872.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    margin-left: 70%; 
+     background-size: 90%;
+    
+    
+}
+
+.groundSection2{
+    background:  url("./images/Ellipse\ 8.png");
+   background-repeat: no-repeat;
+    height: 50vh; 
+    margin-left: -200px;
+    background-size: 70%;
+    /* margin-top: 10vh; */
+    
+}
+.wwwe{
+    display: flex;
+    margin-left: -25px;
+    /* justify-content: center; */
+    
+}
+.wwwe p{
+    color: var(--textclr, #5E6282);
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 124.5%; /* 1.245rem */
+}
+.wwwe h4{
+    color: var(--textclr, #5E6282);
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 1.245rem */
+}
+h5{
+    color: #DF6951;
+/* text-align: center; */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: -100px;
+}
+.cent.h2{
+    margin-top: 100px;
+    color: #181E4B;
+font-family: Volkhov;
+font-size: 3.125rem;
+font-style: normal;
+font-weight: 700;
+/* line-height: normal; */
+text-transform: capitalize;
+}
+.wwwe img{
+    width: 2.9375rem;
+height: 3rem;
+flex-shrink: 0;
+margin-top: 20px;
+margin: 25px;
+}
+.cent{
+    justify-content: center;
+    align-items: center;
+    margin-left: -450px;
+    margin-top: 250px;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 700px;
+    font-size: 0.5rem;
+}
+.space{
+    margin-top: 40px;
+    display: flex;
+    
+}
+.space img{
+    justify-content: space-around;
+    margin: 20px;
+    width: 20px;
+    border-radius: 100px;
+    
+}
+.spacing{
+    display: flex;
+    /* width: 1rem;
+height: 1rem;
+flex-shrink: 0; */
+justify-content: space-around;
+margin-top: 20px;
+}
+.spacing img{
+    width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+}
+.spacing p{
+    margin-top: -0.3px;
+}
+.roll{
+    margin-top: -650px;
+    margin-left: -10px;
+    /* border: 1px solid black; */
+    width: 20rem;
+    
+height: 22rem;
+border-radius: 1.625rem;
+background: var(--white, #FFF);
+box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.rrr img{
+    width: 15rem;
+    text-align: center;
+}
+.rrr{
+    text-align: center;
+}
+.mm{
+    margin-left: 15px;
+    color: var(--black, #080809);
+font-family: Poppins;
+}
+.mm p{
+    color: var(--text-2, #84829A);
+font-family: Poppins;
+
+}
+.popp{
+    display: flex;
+    margin: 15px;
+    /* border: 1px solid black; */
+    width: 250px;
+    margin-left: 170px;
+    z-index: 1;
+
+    margin-top: -200px;
+    border-radius: 1.125rem;
+background: var(--white, #FFF);
+box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.00), 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.poppp img{
+   margin-top: 40px;
+   
+    border-radius: 0px;
+    width: 4.625rem;
+height: 4.125rem;
+flex-shrink: 0;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+/* background:  lightgray 0px -52.134px / 100% 168.182% no-repeat; */
+}
+.uuyy{
+    margin-left: 20px;
+}
+.uuy{
+    color: var(--text-2, #84829A);
+font-family: Poppins;
+}
+.uuyy span{
+    color: #DF6951;
+}
+
+
