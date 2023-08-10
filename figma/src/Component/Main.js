@@ -60,19 +60,30 @@ const Main = () => {
     </div>
     
     <div className='ddd'>
-        <div>
-            <img src={fineImage2}></img>
+        <div className='pop'>
+            <div className='muu'>
+                <img src={fineImage2}></img>
+            </div>
+            <div className='mu'>
+                <img src={fineImage1}></img>
+            </div>
+            <div className='tup'>
+                <img src={fineImage3}></img>
+            </div>
+            <div className='las'>
+                <img src={fineImage}></img>
+            </div>
+            <p className='hori'>Honeymoon Packages</p>
         </div>
-        <div className='mu'>
-            <img src={fineImage1}></img>
+        <div className='pp'>
+            <h4 className='col'>HONEYMOON SPECIALS</h4>
+            <p className='ray'>Our Romantic Tropical <br></br> Destination</p>
+            <p className='rey'>Et labore harum non nobis ipsum eum molestias mollitia et corporis
+                 <br></br> praesentium a laudantium internos. Non quis eius quo eligendi 
+                 corrupti <br></br> et fugiat nulla qui soluta recusandae in maxime quasi aut
+                  ducimus illum <br></br> aut optio quibusdam!</p>
+                  <button className='but'>View Packages</button>
         </div>
-        <div>
-            <img src={fineImage3}></img>
-        </div>
-        <div>
-            <img src={fineImage}></img>
-        </div>
-
     </div>
     </div>
   )
