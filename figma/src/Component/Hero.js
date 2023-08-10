@@ -18,7 +18,11 @@ const Hero = () => {
   return (
     <div className='heroSection' >
       <nav>
-         <h3 id='first'>Travel <img src={arrowImage}></img></h3>
+         
+         <div className='opay'>
+         <h3 id='first'>Travel </h3>
+         <img src={arrowImage}></img>
+         </div>
         
         <li><a>Home</a></li>
         <li><a>About</a></li>
