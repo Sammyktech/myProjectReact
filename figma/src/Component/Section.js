@@ -59,8 +59,22 @@ adipiscing elit. Urna, tortor tempus. </p></h4>
                     <div className='spacing'>
                         <img src={buildingImage}></img>
                         <p>60 people are interested</p>
-                        <img src={heartImage}></img>
+                        <img className='mar' src={heartImage}></img>
                     </div>
+                <div className='qu'>
+                <div class="grid-item">+</div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"><span>+</span></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item">+</div>
+                <div class="grid-item"><span>+</span></div>
+                <div class="grid-item">+</div>
+                <div class="grid-item">+</div>
+                <div class="grid-item"><span>+</span></div>
+                <div class="grid-item">+</div>
+                </div> 
                 </div>
             </div>  
                             <div className='popp'>

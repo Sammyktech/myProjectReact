@@ -12,6 +12,8 @@ import elipseImage36 from '../images/Ellipse 36.png'
 import elipseImage37 from '../images/Ellipse 37.png'
 import elipseImage620 from '../images/Ellipse 620.png'
 import elipseImage from '../images/Ellipse 620@2x.png'
+import unionImage from '../images/Union.png'
+
 
 const Hero = () => {
     
@@ -30,33 +32,49 @@ const Hero = () => {
         <li><a>Upcoming Packages</a></li>
         <button>Get in Touch</button>
       </nav>
-
+      <div className='union'>
+        <img src={unionImage}></img>
+        <div className='unionn'>
+        <p>Honeymoon Packages</p>
+        <p>Tours Packages</p>
+        <p>Musical Event</p>
+        <p>Build Packages</p>
+        </div>
+      </div>
+    <div>
    <img className='top' src={vectorImage}></img>
    <h3 className='slogan'>No matter where you're <br></br>
    going to,we'll take you <br></br> <h3 className='shi'>there</h3> </h3>
+   </div>
    
    <div className='opps'>
-   <p>where to? |   </p>
-  
-   <p>Travel Type    <i class="fa-solid fa-chevron-down fa-sm">  </i>|</p>
-   
+   <p className='ss'>where to?</p>
+    <p className='fro'> |</p>
+   <p>Travel Type    <i class="fa-solid fa-chevron-down fa-sm">  </i></p>
+   <p className='fro'>|</p>
    <p>Duration    <i class="fa-solid fa-chevron-down fa-sm">  </i> </p>
   
     <button>Submit</button>
    </div>
    <div className='elipse'>
-    <img src={elipseImage31}></img>
-    <img src={elipseImage32}></img>
-    <img src={elipseImage33}></img>
-    <img src={elipseImage34}></img>
-    <img src={elipseImage35}></img>
-    <img src={elipseImage36}></img>
-    <img src={elipseImage37}></img>
+    <div className='lou'>
+    <img className='img1' src={elipseImage31}></img>
+    <img className='img2' src={elipseImage32}></img>
+    <img className='img3' src={elipseImage33}></img>
+    <img className='img4' src={elipseImage34}></img>
+    <img className='img5' src={elipseImage35}></img>
+    <img className='img6' src={elipseImage36}></img>
+    <img className='img7' src={elipseImage37}></img>
+    <span>+</span>
+    </div>
     <p>2,500 people booked tomorrowland Event in the last 24 hours</p>
+    
    </div>
 <div className='elipse1'>
-<img src={elipseImage620}></img>
-<img src={elipseImage} className='edd'></img>
+<img className='img10' src={elipseImage620}></img>
+<div className='img11'>
+<img  src={elipseImage}></img>
+</div>
 <p>scroll</p>
 </div>
 

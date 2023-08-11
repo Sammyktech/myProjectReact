@@ -10,6 +10,7 @@ import fineImage1 from '../images/Ellipse 1.png'
 import fineImage2 from '../images/Ellipse 2.png'
 import fineImage3 from '../images/image 50 (1).png'
 import "../App.css"
+import rectanImage from '../images/Rectangle 10.png'
 
 const Main = () => {
   return (
@@ -18,40 +19,40 @@ const Main = () => {
         <h4 className='cen'>we offer Best Services</h4>
     <div className='flex'>
         <div className='flex1'> 
-        <img src={travImage} style={{zIndex:"1"}}></img>
-        <img src={rectangleImage}></img>
+        <img  src={rectangleImage }></img>
+        <img className='xx' src={travImage}></img>
         <h4>Guided Tours</h4>
-        <p>sunt qui repellat saepe
-         quo velit aperiam id 
+        <p>sunt qui repellat saepe <br></br>
+         quo velit aperiam id <br></br>
          aliquam placeat.</p>
 
         </div>
         <div className='flex2'>
-        <img src={travImage1}></img>
         <img src={rectangleImage}></img>
+        <img className='xx' src={travImage1}></img>
         <h4>Best Flight Option</h4>
-        <p>sunt qui repellat saepe
-         quo velit aperiam id 
+        <p>sunt qui repellat saepe <br></br>
+         quo velit aperiam id <br></br>
          aliquam placeat</p>
 
         </div>
 
         <div className='flex3'>
-        <img src={travImage2}></img>
         <img src={rectangleImage}></img>
+        <img className='xx' src={travImage2}></img>
         <h4>Religious Tours</h4>
-        <p>sunt qui repellat saepe
-         quo velit aperiam id 
+        <p>sunt qui repellat saepe <br></br>
+         quo velit aperiam id <br></br>
          aliquam placeat</p>
 
         </div>
 
         <div className='flex4'>
-        <img src={travImage3}></img>
         <img src={rectangleImage}></img>
+        <img className='xx' src={travImage3}></img>
         <h4>Medical insurance</h4>
-        <p>sunt qui repellat saepe
-         quo velit aperiam id 
+        <p>sunt qui repellat saepe <br></br>
+         quo velit aperiam id <br></br>
          aliquam placeat</p>
 
         </div>
@@ -70,11 +71,29 @@ const Main = () => {
                 <img src={fineImage1}></img>
             </div>
             <div className='tup'>
+               
                 <img src={fineImage3}></img>
             </div>
             <div className='las'>
                 <img src={fineImage}></img>
             </div>
+            <div className='ttt'>
+            <img  src={rectanImage}></img>
+            </div>
+            <div className='qui'>
+                <div class="grid-item">+</div>
+                <div class="grid-item">+</div>
+                <div class="grid-item">+</div>
+                <div class="grid-item"><span>+</span></div>
+                <div class="grid-item">+</div>
+                <div class="grid-item">+</div>
+                <div class="grid-item">+</div>
+                <div class="grid-item"><span>+</span></div>
+                <div class="grid-item">+</div>
+                <div class="grid-item">+</div>
+                <div class="grid-item"><span>+</span></div>
+                <div class="grid-item">+</div>
+                </div> 
             <p className='hori'>Honeymoon Packages</p>
         </div>
         <div className='pp'>
